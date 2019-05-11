@@ -3,8 +3,7 @@ package com.fraction.ops.test;
 import com.fraction.ops.Fraction;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 public class FractionOperationsTest {
 
@@ -40,22 +39,22 @@ public class FractionOperationsTest {
     }
 
     private void assertSumOfFractionsIs(int n1, int n2, int nresult){
-        assertThat(Fraction.of(n1).add(Fraction.of(n2)).toString(), equalTo(Fraction.of(nresult).toString()));
+        assertEquals(Fraction.of(n1).add(Fraction.of(n2)), Fraction.of(nresult));
     }
 
     private void assertSumOfFractionsIs(int n1, int d1, int n2, int d2, int nresult, int dresult){
-        assertThat(Fraction.of(n1, d1).add(Fraction.of(n2, d2)).toString(), equalTo(Fraction.of(nresult, dresult).toString()));
+        assertEquals(Fraction.of(n1, d1).add(Fraction.of(n2, d2)), Fraction.of(nresult, dresult));
     }
 
     private void assertMinusOfFractionsIs(int n1, int d1, int n2, int d2, int nresult, int dresult){
-        assertThat(Fraction.of(n1, d1).minus(Fraction.of(n2, d2)).toString(), equalTo(Fraction.of(nresult, dresult).toString()));
+        assertEquals(Fraction.of(n1, d1).minus(Fraction.of(n2, d2)), Fraction.of(nresult, dresult));
     }
 
     private void assertMultiplicationOfFractionsIs(int n1, int d1, int n2, int d2, int nresult, int dresult){
-        assertThat(Fraction.of(n1, d1).multiply(Fraction.of(n2, d2)).toString(), equalTo(Fraction.of(nresult, dresult).toString()));
+        assertEquals(Fraction.of(n1, d1).multiply(Fraction.of(n2, d2)), Fraction.of(nresult, dresult));
     }
 
     private void assertDivisionOfFractionsIs(int n1, int d1, int n2, int d2, int nresult, int dresult){
-        assertThat(Fraction.of(n1, d1).divide(Fraction.of(n2, d2)).toString(), equalTo(Fraction.of(nresult, dresult).toString()));
+        assertEquals(Fraction.of(n1, d1).divide(Fraction.of(n2, d2)), Fraction.of(nresult, dresult));
     }
 }
