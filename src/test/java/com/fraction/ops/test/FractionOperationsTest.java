@@ -12,6 +12,7 @@ public class FractionOperationsTest {
     public void test_add_two_fraction(){
         assertSumOfFractionsIs(7, 3, 4, 5, 47, 15);
         assertSumOfFractionsIs(0, 0, 0, 0, 0, 0);
+        assertSumOfFractionsIs(2, 3, 5, 3, 7, 3);
     }
 
     @Test

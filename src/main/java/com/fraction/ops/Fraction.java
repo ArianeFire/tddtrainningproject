@@ -25,8 +25,11 @@ public class Fraction {
      * @return
      */
     public Fraction add(Fraction fraction){
-        int nominateur = this.nominateur * fraction.denominateur + this.denominateur * fraction.nominateur;
-        return Fraction.of(nominateur, getCommonDenominator(this, fraction));
+        if(this.denominateur != fraction.denominateur){
+            int nominateur = this.nominateur * fraction.denominateur + this.denominateur * fraction.nominateur;
+            return Fraction.of(nominateur, getCommonDenominator(this, fraction));
+        }
+        return Fraction.of(nominateur + fraction.nominateur, this.denominateur);
     }
 
     /**
