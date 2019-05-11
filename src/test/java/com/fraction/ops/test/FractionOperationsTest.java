@@ -11,6 +11,7 @@ public class FractionOperationsTest {
     public void test_add_two_fraction_with_common_denominator(){
         assertSumOfFractionsIs(2, 3, 5);
         assertSumOfFractionsIs(0, 0, 0);
+        assertSumOfFractionsIs(5, 5, 10);
     }
 
     @Test
