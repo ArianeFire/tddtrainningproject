@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f52948-4cca-4955-9fb7-3a371fbd69be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InvalidBarcodeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="BarCodeControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -99,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fraction/ops/Fraction.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/fraction/ops/test/FractionOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InvalidBarcodeException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
       </list>
     </option>
   </component>
@@ -495,11 +493,11 @@
     <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 36m 12s.xml">
       <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionOperationsTest_test_add_two_fraction_with_common_denominator - 2019.05.11 at 15h 41m 24s.xml">
-      <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" configurationId="JUnit" />
+    <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 37m 13s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionOperationsTest_test_add_two_fraction_with_common_denominator - 2019.05.11 at 15h 41m 39s.xml">
-      <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" configurationId="JUnit" />
+    <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 37m 37s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -716,15 +714,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

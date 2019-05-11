@@ -11,4 +11,11 @@ public class BarCodeControllerTest {
         BarcodeControlleur barcodeControlleur = new BarcodeControlleur();
         barcodeControlleur.onBarcode(null);
     }
+
+    @Test(expected = InvalidBarcodeException.class)
+    public void on_Empty_Barcode_Receive(){
+        BarcodeControlleur barcodeControlleur = new BarcodeControlleur();
+        barcodeControlleur.onBarcode("");
+    }
+
 }
