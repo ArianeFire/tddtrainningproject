@@ -8,6 +8,10 @@ public class Fraction {
     private int nominateur;
     private int denominateur;
 
+    public static Fraction of(int numerator) {
+        return Fraction.of(numerator, 1);
+    }
+
     public static Fraction of(int nominateur, int denominateur){
         return new Fraction(nominateur, denominateur);
     }

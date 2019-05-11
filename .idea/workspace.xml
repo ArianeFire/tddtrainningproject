@@ -29,8 +29,8 @@
       <file leaf-file-name="FractionOperationsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/fraction/ops/test/FractionOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="195">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,16 +41,18 @@
       <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fraction/ops/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+            <state relative-caret-position="165">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1941#1942#0" expanded="true" />
-                <element signature="e#2004#2005#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
-                <element signature="e#2682#2683#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2166#2167#0" expanded="true" />
+                <element signature="e#2707#2708#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/fraction/ops/FractionOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fraction/ops/FractionOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fraction/ops/SimpleFractionOperations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fraction/ops/test/FractionOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fraction/ops/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fraction/ops/test/FractionOperationsTest.java" />
       </list>
     </option>
   </component>
@@ -217,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FractionOperationsTest.test_add_two_fraction (1)">
+  <component name="RunManager" selected="JUnit.FractionOperationsTest.test_add_two_fraction_with_common_denominator">
     <configuration name="FractionOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -268,6 +270,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fraction.ops.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tddtrainningproject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fraction.ops.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fraction.ops.test.FractionOperationsTest" />
+      <option name="METHOD_NAME" value="test_add_two_fraction_with_common_denominator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="FractionOperationsTest.test_divide_two_fraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -281,31 +308,6 @@
       <option name="PACKAGE_NAME" value="com.fraction.ops.test" />
       <option name="MAIN_CLASS_NAME" value="com.fraction.ops.test.FractionOperationsTest" />
       <option name="METHOD_NAME" value="test_divide_two_fraction" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FractionOperationsTest.test_minus_two_fraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.fraction.ops.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tddtrainningproject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.fraction.ops.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fraction.ops.test.FractionOperationsTest" />
-      <option name="METHOD_NAME" value="test_minus_two_fraction" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -427,17 +429,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_add_two_fraction (1)" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_minus_two_fraction" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_multiply_two_fraction" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_divide_two_fraction" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_multiply_two_fraction" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_divide_two_fraction" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_add_two_fraction_with_common_denominator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_add_two_fraction (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_divide_two_fraction" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_multiply_two_fraction" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_minus_two_fraction" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_add_two_fraction_with_common_denominator" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_add_two_fraction (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_divide_two_fraction" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FractionOperationsTest.test_multiply_two_fraction" />
       </list>
     </recent_temporary>
   </component>
@@ -455,15 +457,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FractionOperationsTest - 2019.05.10 at 22h 03m 10s.xml">
-      <configuration name="FractionOperationsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FractionOperationsTest - 2019.05.10 at 22h 03m 25s.xml">
-      <configuration name="FractionOperationsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FractionOperationsTest - 2019.05.10 at 22h 10m 09s.xml">
-      <configuration name="FractionOperationsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FractionOperationsTest - 2019.05.10 at 22h 20m 52s.xml">
       <configuration name="FractionOperationsTest" configurationId="JUnit" />
     </history-entry>
@@ -478,6 +471,15 @@
     </history-entry>
     <history-entry file="FractionOperationsTest_test_add_two_fraction_(1) - 2019.05.11 at 15h 20m 00s.xml">
       <configuration name="FractionOperationsTest.test_add_two_fraction (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionOperationsTest_test_add_two_fraction_with_common_denominator - 2019.05.11 at 15h 25m 30s.xml">
+      <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionOperationsTest_test_add_two_fraction_with_common_denominator - 2019.05.11 at 15h 25m 47s.xml">
+      <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionOperationsTest_test_add_two_fraction_with_common_denominator - 2019.05.11 at 15h 26m 04s.xml">
+      <configuration name="FractionOperationsTest.test_add_two_fraction_with_common_denominator" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FractionOperationsTest_test_divide_two_fraction - 2019.05.10 at 22h 27m 48s.xml">
       <configuration name="FractionOperationsTest.test_divide_two_fraction" configurationId="JUnit" />
@@ -661,24 +663,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fraction/ops/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-            <element signature="e#2682#2683#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/fraction/ops/test/FractionOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
