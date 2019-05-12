@@ -5,6 +5,8 @@ public interface PrintDevice {
 
     void printInvalidCodeBar();
 
+    void printPriceNotFoundForCodebar(String code);
+
     String getText();
     void print(String s);
 }

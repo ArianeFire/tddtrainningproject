@@ -13,6 +13,11 @@ public class RemenberPrinter implements PrintDevice{
     }
 
     @Override
+    public void printPriceNotFoundForCodebar(String code){
+        print(String.format("No price found for %s", code));
+    }
+
+    @Override
     public String getText() {
         return text;
     }

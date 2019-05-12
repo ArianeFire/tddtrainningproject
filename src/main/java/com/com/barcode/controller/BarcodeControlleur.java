@@ -19,7 +19,7 @@ public class BarcodeControlleur {
         }
         Double itemPrice = priceGateWay.findByCodeBar(code);
         if(isNull(itemPrice)){
-            printDevice.print(String.format("No price found for %s", code));
+            printDevice.printPriceNotFoundForCodebar(code);
         }else {
             printDevice.printPrice(itemPrice);
         }
