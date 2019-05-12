@@ -5,9 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 public class BarCodeControllerTest {
 
@@ -18,7 +19,9 @@ public class BarCodeControllerTest {
     @Before
     public void before(){
         printDevice = new RemenberPrinter();
-        priceGateWay = new InMemoryPriceGateway(Collections.singletonMap("1", 12.8));
+        priceGateWay = new InMemoryPriceGateway(new HashMap<String, Double>() {{
+            put("1", 12.8);
+        }});
         barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
     }
 
@@ -36,31 +39,13 @@ public class BarCodeControllerTest {
 
     @Test
     public void no_Price_Found_For_Codebar(){
-        priceGateWay = new InvalidPriceGateway();
-        barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
-        barcodeControlleur.onBarcode("0101");
-        assertEquals(String.format("No price found for %s", "0101"), printDevice.getText());
+        barcodeControlleur.onBarcode("01");
+        assertEquals(String.format("No price found for %s", "01"), printDevice.getText());
     }
 
     @Test
     public void display_Item_Price(){
         barcodeControlleur.onBarcode("0A0A0A01010");
-        assertNotNull(((RemenberPrinter)printDevice).getMessage());
+        assertEquals("10.8", printDevice.getText());
     }
-
-
-    class InvalidPriceGateway implements PriceGateWay {
-        @Override
-        public double findByCodeBar(String code) {
-            throw new NoPriceFoundException();
-        }
-    }
-
-    class StaticPriceGateway implements PriceGateWay {
-        @Override
-        public double findByCodeBar(String code) {
-            return 0;
-        }
-    }
-
 }

@@ -11,7 +11,7 @@ public class InMemoryPriceGateway implements PriceGateWay{
     }
 
     @Override
-    public double findByCodeBar(String code) {
+    public Double findByCodeBar(String code) {
         return codebarByPrice.get(code);
     }
 }
