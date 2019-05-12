@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f52948-4cca-4955-9fb7-3a371fbd69be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InvalidBarcodeException.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +18,8 @@
       <file leaf-file-name="BarCodeControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="193">
+              <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1553#1554#0" expanded="true" />
@@ -258,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar">
+  <component name="RunManager" selected="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive">
     <configuration name="BarCodeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -334,7 +329,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BarCodeControllerTest.on_Invalid_Barcode_Receive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarCodeControllerTest.on_Empty_Barcode_Receive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.barcode.controller.test.*" />
@@ -346,7 +341,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.barcode.controller.test" />
       <option name="MAIN_CLASS_NAME" value="com.barcode.controller.test.BarCodeControllerTest" />
-      <option name="METHOD_NAME" value="on_Invalid_Barcode_Receive" />
+      <option name="METHOD_NAME" value="on_Empty_Barcode_Receive" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -467,18 +462,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Invalid_Barcode_Receive" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.display_Item_Price" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Null_Barcode_Receive" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.display_Item_Price" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Null_Barcode_Receive" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Null_Barcode_Receive" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.display_Item_Price" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Invalid_Barcode_Receive" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Null_Barcode_Receive" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.display_Item_Price" />
       </list>
     </recent_temporary>
   </component>
@@ -496,9 +491,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 47m 42s.xml">
-      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 58m 06s.xml">
       <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -516,6 +508,9 @@
     </history-entry>
     <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 14h 46m 49s.xml">
       <configuration name="BarCodeControllerTest.no_Price_Found_For_Codebar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarCodeControllerTest_on_Empty_Barcode_Receive - 2019.05.12 at 14h 49m 39s.xml">
+      <configuration name="BarCodeControllerTest.on_Empty_Barcode_Receive" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BarCodeControllerTest_on_Null_Barcode_Receive - 2019.05.12 at 14h 42m 50s.xml">
       <configuration name="BarCodeControllerTest.on_Null_Barcode_Receive" configurationId="JUnit" />
@@ -781,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="193">
+          <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1553#1554#0" expanded="true" />
