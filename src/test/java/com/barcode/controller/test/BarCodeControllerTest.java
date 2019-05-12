@@ -4,6 +4,7 @@ import com.com.barcode.controller.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 public class BarCodeControllerTest {
@@ -19,14 +20,16 @@ public class BarCodeControllerTest {
         barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
     }
 
-    @Test(expected =  InvalidBarcodeException.class)
+    @Test
     public void on_Null_Barcode_Receive(){
         barcodeControlleur.onBarcode(null);
+        assertEquals("No price scanned : Invalid barcode", printDevice.getText());
     }
 
-    @Test(expected = InvalidBarcodeException.class)
+    @Test
     public void on_Empty_Barcode_Receive(){
         barcodeControlleur.onBarcode("");
+        assertEquals("No price scanned : Invalid barcode", printDevice.getText());
     }
 
     @Test(expected = NoPriceFoundException.class)
@@ -57,14 +60,4 @@ public class BarCodeControllerTest {
         }
     }
 
-    class RemenberPrinter implements PrintDevice{
-        private String message;
-        @Override
-        public void print(String codebar, double price) {
-            this.message = String.format("%s%s", codebar, price);
-        }
-        public String getMessage() {
-            return message;
-        }
-    }
 }
