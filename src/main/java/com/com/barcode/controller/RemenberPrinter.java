@@ -8,6 +8,11 @@ public class RemenberPrinter implements PrintDevice{
     }
 
     @Override
+    public void printInvalidCodeBar(){
+        print("No price scanned : Invalid barcode");
+    }
+
+    @Override
     public String getText() {
         return text;
     }

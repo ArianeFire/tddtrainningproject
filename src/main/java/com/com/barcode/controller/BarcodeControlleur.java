@@ -14,7 +14,7 @@ public class BarcodeControlleur {
 
     public void onBarcode(String code) {
         if(isNull(code) || code.isEmpty()){
-            printDevice.print("No price scanned : Invalid barcode");
+            printDevice.printInvalidCodeBar();
             return;
         }
         Double itemPrice = priceGateWay.findByCodeBar(code);

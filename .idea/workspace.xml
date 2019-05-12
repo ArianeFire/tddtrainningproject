@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BarCodeControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BarCodeControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="467">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +32,13 @@
       <file leaf-file-name="RemenberPrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BarcodeControlleur.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BarcodeControlleur.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="240">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -121,10 +122,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/NoPriceFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InMemoryPriceGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PriceGateWay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
       </list>
     </option>
   </component>
@@ -496,9 +497,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BarCodeControllerTest - 2019.05.12 at 15h 02m 49s.xml">
-      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BarCodeControllerTest - 2019.05.12 at 15h 07m 25s.xml">
       <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -520,11 +518,14 @@
     <history-entry file="BarCodeControllerTest - 2019.05.12 at 15h 13m 47s.xml">
       <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarCodeControllerTest - 2019.05.12 at 15h 16m 08s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarCodeControllerTest - 2019.05.12 at 15h 16m 23s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BarCodeControllerTest_display_Item_Price - 2019.05.12 at 15h 11m 38s.xml">
       <configuration name="BarCodeControllerTest.display_Item_Price" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 15h 01m 21s.xml">
-      <configuration name="BarCodeControllerTest.no_Price_Found_For_Codebar" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -781,32 +782,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="467">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
