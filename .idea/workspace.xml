@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f52948-4cca-4955-9fb7-3a371fbd69be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InMemoryPriceGateway.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" afterPath="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,14 +21,14 @@
       <file leaf-file-name="BarCodeControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+            <state relative-caret-position="163">
+              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,12 +47,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="InMemoryPriceGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InMemoryPriceGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BarcodeControlleur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="280">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PriceGateWay.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/RemenberPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InMemoryPriceGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java" />
       </list>
@@ -253,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive">
+  <component name="RunManager" selected="JUnit.BarCodeControllerTest">
     <configuration name="BarCodeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -469,9 +489,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.no_Price_Found_For_Codebar" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Empty_Barcode_Receive" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.on_Null_Barcode_Receive" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.BarCodeControllerTest.display_Item_Price" />
       </list>
@@ -491,16 +511,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 58m 06s.xml">
-      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarCodeControllerTest - 2019.05.11 at 19h 59m 12s.xml">
-      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarCodeControllerTest - 2019.05.12 at 14h 41m 05s.xml">
-      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BarCodeControllerTest - 2019.05.12 at 14h 43m 56s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarCodeControllerTest - 2019.05.12 at 14h 55m 22s.xml">
+      <configuration name="BarCodeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarCodeControllerTest - 2019.05.12 at 14h 56m 03s.xml">
       <configuration name="BarCodeControllerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 14h 46m 16s.xml">
@@ -509,11 +526,14 @@
     <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 14h 46m 49s.xml">
       <configuration name="BarCodeControllerTest.no_Price_Found_For_Codebar" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 14h 50m 33s.xml">
+      <configuration name="BarCodeControllerTest.no_Price_Found_For_Codebar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarCodeControllerTest_no_Price_Found_For_Codebar - 2019.05.12 at 14h 51m 13s.xml">
+      <configuration name="BarCodeControllerTest.no_Price_Found_For_Codebar" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BarCodeControllerTest_on_Empty_Barcode_Receive - 2019.05.12 at 14h 49m 39s.xml">
       <configuration name="BarCodeControllerTest.on_Empty_Barcode_Receive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BarCodeControllerTest_on_Null_Barcode_Receive - 2019.05.12 at 14h 42m 50s.xml">
-      <configuration name="BarCodeControllerTest.on_Null_Barcode_Receive" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BarCodeControllerTest_on_Null_Barcode_Receive - 2019.05.12 at 14h 43m 09s.xml">
       <configuration name="BarCodeControllerTest.on_Null_Barcode_Receive" configurationId="JUnit" />
@@ -534,7 +554,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -749,16 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/PrintDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -774,16 +786,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/InMemoryPriceGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="31" column="82" lean-forward="false" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/com/barcode/controller/BarcodeControlleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/barcode/controller/test/BarCodeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
           </folding>
         </state>
       </provider>

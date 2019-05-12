@@ -2,6 +2,8 @@ package com.com.barcode.controller;
 
 import java.util.Objects;
 
+import static java.util.Objects.isNull;
+
 public class BarcodeControlleur {
 
     private PriceGateWay priceGateWay;
@@ -13,11 +15,15 @@ public class BarcodeControlleur {
     }
 
     public void onBarcode(String code) {
-        if(Objects.isNull(code) || code.isEmpty()){
+        if(isNull(code) || code.isEmpty()){
             printDevice.print("No price scanned : Invalid barcode");
             return;
         }
-        double itemPrice = priceGateWay.findByCodeBar(code);
-        printDevice.print(code, itemPrice);
+        Double itemPrice = priceGateWay.findByCodeBar(code);
+        if(isNull(itemPrice)){
+            printDevice.print(String.format("No price found for %s", code));
+        }else {
+            printDevice.print(code, itemPrice);
+        }
     }
 }

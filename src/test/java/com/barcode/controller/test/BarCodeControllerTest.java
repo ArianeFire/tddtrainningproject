@@ -4,6 +4,8 @@ import com.com.barcode.controller.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Collections;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -16,7 +18,7 @@ public class BarCodeControllerTest {
     @Before
     public void before(){
         printDevice = new RemenberPrinter();
-        priceGateWay = new StaticPriceGateway();
+        priceGateWay = new InMemoryPriceGateway(Collections.singletonMap("1", 12.8));
         barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
     }
 
@@ -32,11 +34,12 @@ public class BarCodeControllerTest {
         assertEquals("No price scanned : Invalid barcode", printDevice.getText());
     }
 
-    @Test(expected = NoPriceFoundException.class)
+    @Test
     public void no_Price_Found_For_Codebar(){
         priceGateWay = new InvalidPriceGateway();
         barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
         barcodeControlleur.onBarcode("0101");
+        assertEquals(String.format("No price found for %s", "0101"), printDevice.getText());
     }
 
     @Test
