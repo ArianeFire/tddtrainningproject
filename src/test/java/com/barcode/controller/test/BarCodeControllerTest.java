@@ -4,9 +4,7 @@ import com.com.barcode.controller.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +19,7 @@ public class BarCodeControllerTest {
         printDevice = new RemenberPrinter();
         priceGateWay = new InMemoryPriceGateway(new HashMap<String, Double>() {{
             put("1", 12.8);
+            put("0A0A0A01010", 10.01);
         }});
         barcodeControlleur = new BarcodeControlleur(priceGateWay, printDevice);
     }
@@ -46,6 +45,6 @@ public class BarCodeControllerTest {
     @Test
     public void display_Item_Price(){
         barcodeControlleur.onBarcode("0A0A0A01010");
-        assertEquals("10.8", printDevice.getText());
+        assertEquals("10.01", printDevice.getText());
     }
 }

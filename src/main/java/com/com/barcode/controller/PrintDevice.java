@@ -1,7 +1,7 @@
 package com.com.barcode.controller;
 
 public interface PrintDevice {
-    void print(String codebar, double price);
+    void printPrice(Double price);
     String getText();
     void print(String s);
 }

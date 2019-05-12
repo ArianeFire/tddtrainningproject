@@ -1,23 +1,19 @@
 package com.com.barcode.controller;
 
 public class RemenberPrinter implements PrintDevice{
-    private String message;
+    private String text;
     @Override
-    public void print(String codebar, double price) {
-        this.message = String.format("%s%s", codebar, price);
+    public void printPrice(Double price) {
+        this.text = String.format("%s", price);
     }
 
     @Override
     public String getText() {
-        return message;
+        return text;
     }
 
     @Override
     public void print(String s) {
-        this.message = s;
-    }
-
-    public String getMessage() {
-        return message;
+        this.text = s;
     }
 }

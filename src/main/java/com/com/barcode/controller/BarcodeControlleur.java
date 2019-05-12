@@ -1,7 +1,5 @@
 package com.com.barcode.controller;
 
-import java.util.Objects;
-
 import static java.util.Objects.isNull;
 
 public class BarcodeControlleur {
@@ -23,7 +21,7 @@ public class BarcodeControlleur {
         if(isNull(itemPrice)){
             printDevice.print(String.format("No price found for %s", code));
         }else {
-            printDevice.print(code, itemPrice);
+            printDevice.printPrice(itemPrice);
         }
     }
 }
